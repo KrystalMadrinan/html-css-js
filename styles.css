@@ -1,3 +1,30 @@
 * {
     border: 1px solid black;
 }
+
+body {
+    width: 960px;
+    margin: 0px auto;
+    background: palegreen;
+}
+
+header {
+    height: 200px;
+    text-align: center;
+}
+
+#main-header {
+    width: 50%;
+    text-align: center; 
+    
+
+}
+
+.menu {
+    color: darkgreen;
+    list-style: none;
+    width: 100px;
+    float: left;
+    display: inline-block;
+
+}
