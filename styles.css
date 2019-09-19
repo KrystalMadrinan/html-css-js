@@ -5,7 +5,7 @@
 body {
     width: 960px;
     margin: 0px auto;
-    background: palegreen;
+    background: #97dba0;
 }
 
 header {
@@ -24,7 +24,7 @@ header {
     color: darkgreen;
     list-style: none;
     width: 100px;
-    float: left;
-    display: inline-block;
+    text-align: center;
+   
 
 }
