@@ -1,8 +1,16 @@
-var answer = confirm('Are alpacas cute?');
+var answer = prompt('Are alpacas cute?');
 var response;
+while(answer === ''){
+   answer = prompt('Are alpacas cute?');
+} 
 
-if (answer === true) {
+
+if(answer === 'yes') {
     response = ('Yes they are!');
-} else {
-    response = ('That's fine!);
+}   else if (answer === 'no'){
+    response = ('That is fine!');
+}   else {
+    response = ('Cool story but yes or no though??');
 }
+
+document.write('<h3>' + response + '</h3>');

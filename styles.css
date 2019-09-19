@@ -1,5 +1,5 @@
 * {
-    border: 1px solid black;
+    border: 1px solid darkgreen;
 }
 
 body {
@@ -28,3 +28,15 @@ header {
    
 
 }
+
+img {
+    width: 300px;
+}
+
+figure {
+    width: 305px;
+    display: inline-block;
+    margin: 0px;
+
+}
+
