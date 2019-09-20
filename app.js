@@ -1,5 +1,5 @@
 function askName(){
-    var userName = prompt('Hello, what is your name?');
+    var userName = prompt('Hello, what is your name?'); 
     return '<h3>' + 'Hello ' + userName + '!' + '</h3>'
 }
 
@@ -22,3 +22,11 @@ if(answer === 'yes') {
 
 return '<h3>' + response + '</h3>'; 
 
+function showAmount(){
+    var answer = prompt('How many alpacas do you want? Enter a number.');
+
+    for(var i = 0, i < result, i++){
+        var result = showAmount();
+    }
+    return result;
+}
