@@ -1,6 +1,6 @@
 function askName(){
     var userName = prompt('Hello, what is your name?');
-    return '<h2>' + 'Hello ' + userName + '!' + '</h2>'
+    return '<h3>' + 'Hello ' + userName + '!' + '</h3>'
 }
 
 function askQuestion(){
@@ -8,9 +8,9 @@ function askQuestion(){
     var response;
 }
 
-while(answer === ''){
-    answer = prompt('Are alpacas cute?');
- } 
+//while(answer === ''){
+//    answer = prompt('Are alpacas cute?');
+// } 
 
 if(answer === 'yes') {
     response = 'Yes they are!';
@@ -20,4 +20,4 @@ if(answer === 'yes') {
     response = 'Cool story but yes or no though??';
 }
 
-return '<h3>' + response + '</h3>';
+return '<h3>' + response + '</h3>'; 
