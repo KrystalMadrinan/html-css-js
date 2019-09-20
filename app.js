@@ -8,16 +8,17 @@ function askQuestion(){
     var response;
 }
 
-//while(answer === ''){
-//    answer = prompt('Are alpacas cute?');
-// } 
+while(answer === ''){
+    answer = prompt('Are alpacas cute?');
+ } 
 
 if(answer === 'yes') {
     response = 'Yes they are!';
-}  else if (answer === 'no'){
+}  else if(answer === 'no'){
     response = 'That is fine!';
 }  else {
     response = 'Cool story but yes or no though??';
 }
 
 return '<h3>' + response + '</h3>'; 
+
